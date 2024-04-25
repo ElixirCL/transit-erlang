@@ -1,6 +1,3 @@
-[![Build
-Status](https://travis-ci.org/isaiah/transit-erlang.svg)](https://travis-ci.org/isaiah/transit-erlang)
-
 transit-erlang
 ==============
 [transit-format](https://github.com/cognitect/transit-format) implementation in Erlang.
@@ -8,6 +5,14 @@ transit-erlang
 Test and developed on Erlang/OTP R17+.
 
 *NOTE:* Things are still experimental and subject to change.
+
+## Install in `mix.exs`
+
+Inside the `deps`.
+
+```elixir
+{:transit, git: "https://github.com/ElixirCL/transit-erlang.git"}
+```
 
 Usage
 -----
